@@ -16,8 +16,8 @@ st.set_page_config(page_title="Wach Katbghini?", page_icon="💖")
 st.markdown("<h1 style='text-align:center; color:#AD1457;'>jawbi bsara7a 💖👀</h1>", unsafe_allow_html=True)
 
 # الصورة
-real_path = r"C:\Users\youss\OneDrive\Desktop\images.png" # <--- ديري Ctrl+V هنا
-st.my_image = st.image(Image.open(real_path),width= 150)
+real_path = "images.png" # <--- ديري Ctrl+V هنا
+my_image = st.image(Image.open(real_path),width= 150)
 
 
 # السؤال أو النتيجة
